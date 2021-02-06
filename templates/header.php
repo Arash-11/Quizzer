@@ -11,6 +11,6 @@
 <body>
   <header>
     <div class="container">
-      <h1>Quizzer</h1>
+      <h1><a href="index.php">Quizzer</a></h1>
     </div>
   </header>

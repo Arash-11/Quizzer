@@ -12,6 +12,20 @@ a {
   text-decoration: none;
 }
 
+header {
+  border-bottom: 3px solid #f4f4f4;
+}
+
+header a {
+  color: #000;
+}
+
+footer {
+  padding-top: 5px;
+  border-top: 3px solid #f4f4f4;
+  text-align: center;
+}
+
 .container {
   width: 60%;
   margin: 0 auto;
@@ -20,10 +34,6 @@ a {
 
 main {
   padding-bottom: 20px;
-}
-
-header {
-  border-bottom: 3px solid #f4f4f4;
 }
 
 a.start {
@@ -41,8 +51,27 @@ a.start {
   border: 1px dotted #ccc;
 }
 
-footer {
-  padding-top: 5px;
-  border-top: 3px solid #f4f4f4;
-  text-align: center;
+label span {
+  display: inline-block;
+  width: 200px;
+}
+
+input[type='text'] {
+  padding: 4px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type='number'] {
+  padding: 4px;
+  width: 60px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 80%;
+  }
 }
