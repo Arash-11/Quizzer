@@ -1,5 +1,7 @@
 <?php
 
+  include('./config/database.php');
+
 ?>
 
 <?php include('./templates/header.php'); ?>
